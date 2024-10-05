@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+/* Event Page Container */
+.event-page {
+    background-image: url('https://githubsrmist.tech/_next/static/media/heroimg_events.87fea314.png'); /* Replace with your background image path */
+    background-size: cover; /* Cover the entire page */
+    background-attachment: fixed; /* Fixed background */
+    background-position: center; /* Center the background */
+    min-height: 100vh; /* Full height of the viewport */
+    padding: 50px 20px; /* Top-bottom and left-right padding */
+    text-align: center; /* Center align text */
+}
+
+/* Title Container */
+.title-container {
+    background-color: rgba(15, 15, 15, 0.8); /* Semi-transparent black for title background */
+    padding: 20px; /* Padding for the title container */
+    border-radius: 10px; /* Rounded corners for better aesthetics */
+}
+
+/* Event List Layout */
+.event-list {
+    background-color: #0f0f0f; /* Dark background for event cards */
+    padding: 40px 0; /* Padding for the event list area */
+    display: flex; /* Flexbox layout for event cards */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: center; /* Center the items */
+    gap: 40px; /* Space between event cards */
+}
+
+/* Title Styling */
+.page-title {
+    font-size: 2.3rem; /* Adjusted font size */
+    font-weight: 800; /* Bold weight for emphasis */
+    margin-bottom: 50px; /* Space below the title */
+    letter-spacing: 2px; /* Space between letters */
+}
+
+/* Past text in green */
+.past-text {
+    color: #53cd53; /* Bright green color */
+    margin-right: 7px; /* Space to the right of "Past" */
+    text-transform: capitalize; /* Capitalize "P" only */
+    font-family: 'Poppins', sans-serif; /* Optional: use Poppins font */
+    letter-spacing: -0.5px; /* Adjust letter spacing for closer letters */
+}
+
+/* Events text in white */
+.events-text {
+    color: #ffffff; /* White color for the text */
+    text-transform: capitalize; /* Capitalize "E" only */
+    font-family: 'Poppins', sans-serif; /* Optional: use Poppins font */
+    letter-spacing: -0.5px; /* Adjust letter spacing for closer letters */
+}
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+}

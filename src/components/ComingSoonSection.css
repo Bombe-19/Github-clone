@@ -1,0 +1,19 @@
+.coming-soon-container {
+    background-color: #000;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .robot-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .coming-soon-text {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }

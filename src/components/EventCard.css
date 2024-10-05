@@ -1,0 +1,74 @@
+/* Outer container */
+.event-card-container {
+    position: relative;
+    width: 440px;
+    height: 440px; /* Equal height and width for a square shape */
+    padding: 5px;
+    border-radius: 15px;
+    margin: 20px;
+    margin-bottom: 60px; /* Increase bottom margin for more space between containers */
+    background: linear-gradient(to bottom, #00ff00 0%, #000 50%, #00ff00 100%); /* Green top and bottom, black in the middle */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Soft green glow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* Glow effect on hover */
+.event-card-container:hover {
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.8); /* Stronger glow on hover */
+}
+
+/* Inner event card */
+.event-card {
+    background-color: #1a1a1a; /* Dark background for the card */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%; /* Ensure the inner card fills the outer container */
+    position: relative;
+}
+
+/* Event image */
+.event-image {
+    width: 100%;
+    height: 100%; /* Set height to 100% to fill the container */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Event content */
+.event-content {
+    padding: 20px;
+    height: 50%; /* The remaining half for content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Event title */
+.event-title {
+    position: absolute;
+    bottom: -62px; /* Increased space for title */
+    left: 0;
+    color: #fff; /* White text color */
+    font-size: 1.2em; /* Optional: adjust the font size if needed */
+}
+
+/* Get Certificate button */
+.get-certificate-btn {
+    position: absolute;
+    bottom: -50px; /* Adjusted for more space */
+    right: 0;
+    background: linear-gradient(to bottom, #00ff00 0%, #00ff00 100%); /* Match the container's gradient */
+    color: #000; /* Black text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Initial glowing area */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Glowing effect on hover for the button */
+.get-certificate-btn:hover {
+    box-shadow: 0 0 40px rgba(0, 255, 0, 0.8); /* Match the hover glow of containers */
+}
