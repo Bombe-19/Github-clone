@@ -26,45 +26,44 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
+# Github-clone SRM
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description
+Github-clone SRM is a React-based web application designed to display upcoming and past events. It features a clean and modern user interface with a focus on usability and accessibility. Users can easily navigate through the event listings and find detailed information about each event.
 
-### `npm run eject`
+## Features
+- **Responsive Design**: The application is designed to work seamlessly on various devices, from mobile phones to desktop computers.
+- **Event Listings**: View detailed listings of past and upcoming events.
+- **Coming Soon Section**: A placeholder for upcoming features or events.
+- **Gradient Footer**: A visually appealing footer with links to social media.
+- **Modern Styling**: Utilizes styled-components for CSS-in-JS styling.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
+- **React**: JavaScript library for building user interfaces.
+- **React Router**: For routing and navigation within the application.
+- **Styled Components**: For CSS-in-JS styling.
+- **React Icons**: For easily integrating social media icons.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project Structure
+/your-project-root
+│
+├── /public
+│   ├── index.html
+│   └── path-to-your-robot-image.png  // Image file for the ComingSoonSection
+│
+├── /src
+│   ├── /components
+│   │   ├── ComingSoonSection.js       
+│   │   ├── EventCard.js               
+│   │   └── EventPage.js                
+│   │
+│   ├── /data
+│   │   └── event.js                   
+│   │
+│   ├── /styles
+│   │   └── EventPage.css               
+│   │
+│   └── App.js                         
+│
+├── package.json
+└── README.md
