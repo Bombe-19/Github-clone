@@ -53,17 +53,18 @@ Github-clone SRM is a React-based web application designed to display upcoming a
 │
 ├── /src
 │   ├── /components
-│   │   ├── ComingSoonSection.js       
-│   │   ├── EventCard.js               
-│   │   └── EventPage.js                
+│   │   ├── ComingSoonSection.js
+│   │   ├── EventCard.js
+│   │   └── EventPage.js
 │   │
 │   ├── /data
-│   │   └── event.js                   
+│   │   └── event.js
 │   │
 │   ├── /styles
-│   │   └── EventPage.css               
+│   │   └── EventPage.css
 │   │
-│   └── App.js                         
+│   └── App.js
 │
 ├── package.json
 └── README.md
+
